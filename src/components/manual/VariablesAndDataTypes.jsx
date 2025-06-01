@@ -32,11 +32,11 @@ const VariablesAndDataTypes = () => {
             We store data in memory and access it using its address. But since
               we can't remember addresses, we give them names — these names are
               called{" "}
-              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
+              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-100 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
                 Variables
               </span>
               {/* Quick Summary */}
-              <div className="mt-5 p-4 bg-neutral-200 rounded-lg">
+              <div className="mt-5 p-4 bg-neutral-100 rounded-lg">
                 <span className="flex gap-1 md:gap-2">
                   <Star className="block md:hidden fill-current text-neutral-800 " size={17} />
                   <Star className="hidden md:block fill-current text-neutral-800 " size={20} />
