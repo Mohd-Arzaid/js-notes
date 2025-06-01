@@ -210,9 +210,10 @@ console.log(b); // logs the outer let b, which is 200`}
               4. Data Types?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
-              <div className="space-y-2">
-                <p>There are two main types: <span className="text-highlight">1. Primitive</span> and{" "}
-                <span className="text-highlight">2. Non-Primitive</span></p>
+              <div className="space-y-3">
+                <p>There are two main types: </p>
+                <span className="text-highlight">1. Primitive</span> and{" "}
+                <span className="text-highlight">2. Non-Primitive</span>
                 <p>Primitive types: String, Number, Boolean, Undefined, Null</p>
                 <p>Non-Primitive types: Object and Array</p>
               </div>
