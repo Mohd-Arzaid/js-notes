@@ -4,6 +4,14 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "../ui/table";
 
 const VariablesAndDataTypes = () => {
   return (
@@ -33,7 +41,6 @@ const VariablesAndDataTypes = () => {
               called <span className="text-highlight">Variables</span>
               {/* Quick Summary */}
               <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
-
                 <div className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
                   Variables ={" "}
                   <span className="text-highlight">Named memory location</span>{" "}
@@ -49,22 +56,53 @@ const VariablesAndDataTypes = () => {
               2. Types of Variables?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
-              In JS, there are three ways to declare variables = <span className="text-highlight">var</span>, <span className="text-highlight">let</span>, and <span className="text-highlight">const</span>
-             
-
-           
-
+              In JS, there are three ways to declare variables ={" "}
+              <span className="text-highlight">var</span>,{" "}
+              <span className="text-highlight">let</span>, and{" "}
+              <span className="text-highlight">const</span>
               {/* Quick Summary */}
-              <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
-          
-              <ul className="list-disc ml-4 space-y-2">
-                <li><span className="text-highlight">var</span> - Function scoped or Global scoped, can be reassigned and redeclared</li>
-                <li><span className="text-highlight">let</span> - Block scoped, can be reassigned but not redeclared</li>
-                <li><span className="text-highlight">const</span> - Block scoped, cannot be reassigned or redeclared</li>
-              </ul>
-
+              <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1 overflow-x-auto">
+                <Table className="w-full text-sm md:text-[18px]">
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead className="min-w-[80px] font-geist text-primary text-center">Variables</TableHead>
+                      <TableHead className="min-w-[120px] font-geist text-primary text-center">Scope</TableHead>
+                      <TableHead className="min-w-[150px] font-geist text-primary text-center">
+                        Reassigned
+                      </TableHead>
+                      <TableHead className="min-w-[150px] font-geist text-primary text-center">
+                        Redeclared
+                      </TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody className="font-geist text-secondary text-center">
+                    <TableRow>
+                      <TableCell className="text-center">
+                        <span className="text-highlight">var</span>
+                      </TableCell>
+                      <TableCell className="text-center">Function / Global</TableCell>
+                      <TableCell className="text-center">✅ Yes</TableCell>
+                      <TableCell className="text-center">✅ Yes</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="text-center">
+                        <span className="text-highlight">let</span>
+                      </TableCell>
+                      <TableCell className="text-center">Block</TableCell>
+                      <TableCell className="text-center">✅ Yes</TableCell>
+                      <TableCell className="text-center">❌ No</TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="text-center">
+                        <span className="text-highlight">const</span>
+                      </TableCell>
+                      <TableCell className="text-center">Block</TableCell>
+                      <TableCell className="text-center">❌ No</TableCell>
+                      <TableCell className="text-center">❌ No</TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
               </div>
-
             </AccordionContent>
           </AccordionItem>
 
