@@ -80,7 +80,7 @@ const VariablesAndDataTypes = () => {
                       <TableCell className="text-center">
                         <span className="text-highlight">var</span>
                       </TableCell>
-                      <TableCell className="text-center">Function / Global</TableCell>
+                      <TableCell className="text-center">Functional / Global</TableCell>
                       <TableCell className="text-center">✅ Yes</TableCell>
                       <TableCell className="text-center">✅ Yes</TableCell>
                     </TableRow>
