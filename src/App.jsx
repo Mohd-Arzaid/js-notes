@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-4 h-screen">
       <Link to="/VariablesAndDataTypes">
-        <div className="font-inter text-[18px] font-medium underline underline-offset-4">
+        <div className="font-geist text-[18px] font-medium underline underline-offset-4">
           Variables And Data Types
         </div>
       </Link>

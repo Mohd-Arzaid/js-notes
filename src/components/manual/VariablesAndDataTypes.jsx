@@ -10,7 +10,7 @@ const VariablesAndDataTypes = () => {
   return (
     <div className=" max-w-[88rem] mx-auto px-4 py-8 md:p-12">
       {/* Heading */}
-      <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary"> 
+      <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary">
         Variables And DataTypes Q/A
       </h2>
       <p className="text-secondary text-center text-[15px] md:text-[20px] font-geist">
@@ -26,7 +26,7 @@ const VariablesAndDataTypes = () => {
           {/* Q - 1 */}
           <AccordionItem value="item-1">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
-            Variables?
+              Variables?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
               We store data in memory and access it using its address. But since
@@ -50,14 +50,15 @@ const VariablesAndDataTypes = () => {
 
                 <div className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
                   Variables ={" "}
-                  <span className="text-highlight">
-                    Named memory location
-                  </span>{" "}
+                  <span className="text-highlight">Named memory location</span>{" "}
                   that store data in memory
                 </div>
               </div>
             </AccordionContent>
           </AccordionItem>
+
+
+          
 
           {/* The End */}
         </Accordion>
