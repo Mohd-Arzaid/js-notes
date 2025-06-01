@@ -1,5 +1,4 @@
-@import "@fontsource/inter";
-@import "@fontsource/geist-sans";
+@import 'non.geist/font-faces/Geist-Bold.css';
 
 @tailwind base;
 @tailwind components;
