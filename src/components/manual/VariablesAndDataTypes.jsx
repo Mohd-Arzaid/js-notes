@@ -28,7 +28,7 @@ const VariablesAndDataTypes = () => {
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
               Variables ?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-secondary">
+            <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
               We store data in memory and access it using its address. But since
               we can't remember addresses, we give them names — these names are
               called <span className="text-highlight">Variables</span>
