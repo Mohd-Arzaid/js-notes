@@ -78,7 +78,7 @@
   }
 
   .text-highlight {
-    @apply text-primary font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ;
+    @apply text-primary font-geist text-sm md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ;
   }
 
   :root {
