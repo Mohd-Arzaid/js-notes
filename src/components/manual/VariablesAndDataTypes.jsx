@@ -10,12 +10,12 @@ const VariablesAndDataTypes = () => {
   return (
     <div className=" max-w-[88rem] mx-auto px-4 py-8 md:p-12">
       {/* Heading */}
-      <h2 className="text-[16px] md:text-[48px] text-center font-geist font-semibold text-primary"> 
+      <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary"> 
         Variables And DataTypes Q/A
       </h2>
-      <p className="text-secondary text-center text-sm md:text-[20px] font-geist">
+      <p className="text-secondary text-center text-[15px] md:text-[20px] font-geist">
         Variables And DataTypes{" "}
-        <span className="text-primary font-geist text-sm md:text-[20px] font-medium underline underline-offset-4">
+        <span className="text-primary font-geist text-[15px] md:text-[20px] font-medium underline underline-offset-4">
           Questions & Answers
         </span>
       </p>
@@ -25,7 +25,7 @@ const VariablesAndDataTypes = () => {
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
-            <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
               Variables ?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
@@ -43,7 +43,7 @@ const VariablesAndDataTypes = () => {
                     className="hidden md:block fill-current text-neutral-800 "
                     size={20}
                   />
-                  <h3 className="text-primary font-geist text-sm md:text-[18px] font-medium mb-2">
+                  <h3 className="text-primary font-geist text-[15px] md:text-[18px] font-medium mb-2">
                     Summary
                   </h3>
                 </span>
