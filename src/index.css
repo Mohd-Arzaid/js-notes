@@ -67,3 +67,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .text-primary {
+    @apply text-neutral-800 ;
+  }
+
+  .text-secondary {
+    @apply text-neutral-600 ;
+  }
+
+  :root {
+    --shadow-input: 0px 2px 3px -1px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(25, 28, 33, 0.02), 0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+  }
+
+  .shadow-input {
+    box-shadow: var(--shadow-input);
+  }
+}
