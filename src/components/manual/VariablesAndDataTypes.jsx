@@ -25,27 +25,27 @@ const VariablesAndDataTypes = () => {
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
-          <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#3f3f46] font-medium">
+          <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-800 font-medium">
           Variables ?
             </AccordionTrigger>
-            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-600">
             We store data in memory and access it using its address. But since
               we can't remember addresses, we give them names — these names are
               called{" "}
-              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium ">
+              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
                 Variables
               </span>
               {/* Quick Summary */}
-              <div className="mt-5 p-4 bg-[#f4f4f5] rounded-lg">
+              <div className="mt-5 p-4 bg-neutral-200 rounded-lg">
                 <span className="flex gap-1 md:gap-2">
-                  <Star className="block md:hidden fill-current text-[#160E34] " size={17} />
-                  <Star className="hidden md:block fill-current text-[#160E34] " size={20} />
-                  <h3 className="text-[#3f3f46] font-geist text-[15px] md:text-[18px] font-medium mb-2">
+                  <Star className="block md:hidden fill-current text-neutral-800 " size={17} />
+                  <Star className="hidden md:block fill-current text-neutral-800 " size={20} />
+                  <h3 className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium mb-2">
                     Summary
                   </h3>
                 </span>
 
-                <div className="font-geist text-[15px] md:text-[18px] tracking-wider text-[#5e5f6e]">
+                <div className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-600">
                   Variables = Named memory location that store data in memory
                 </div>
               </div>
