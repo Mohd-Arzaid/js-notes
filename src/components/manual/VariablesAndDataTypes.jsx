@@ -25,27 +25,27 @@ const VariablesAndDataTypes = () => {
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
-            <AccordionTrigger className="font-inter text-[15px] md:text-[18px] tracking-wider text-neutral-800 font-medium">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-800 font-medium">
               Variables ?
             </AccordionTrigger>
-            <AccordionContent className="font-inter text-[15px] md:text-[18px] tracking-wider text-neutral-600">
+            <AccordionContent className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-600">
               We store data in memory and access it using its address. But since
               we can't remember addresses, we give them names — these names are
               called{" "}
               <span className="text-neutral-800 font-inter text-[15px] md:text-[18px] font-medium ">
-                variables
+                Variables
               </span>
               {/* Quick Summary */}
               <div className="mt-2 p-4 bg-neutral-100 rounded-lg">
                 <span className="flex gap-1 md:gap-2">
                   <Star className="block md:hidden fill-current text-[#160E34] " size={17} />
                   <Star className="hidden md:block fill-current text-[#160E34] " size={20} />
-                  <h3 className="text-neutral-800 font-inter text-[15px]  md:text-[18px] font-medium mb-2">
+                  <h3 className="text-neutral-800 font-geist text-[15px]  md:text-[18px] font-medium mb-2">
                     Summary
                   </h3>
                 </span>
 
-                <div className="text-neutral-600 text-[15px] md:text-[18px] font-medium">
+                <div className="text-neutral-600 text-[15px] md:text-[18px] font-geist">
                   Data → Store → Memory → Access → Address → Variable
                 </div>
               </div>
