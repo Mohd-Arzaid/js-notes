@@ -159,6 +159,48 @@ let b = a; // b = a and a = 400 so b is 400
 console.log(b); // so b = 400`}
                 </code>
               </pre>
+
+              <span className="text-highlight">2nd example:</span>
+
+              <pre className="my-5 p-4 bg-neutral-100 rounded-lg shadow-input mx-1 overflow-x-auto">
+                <code className="text-secondary text-[15px] md:text-[20px] font-geist whitespace-pre">
+                  {`var a = 200;
+
+{
+  let a = 400;
+}
+
+let b = a;
+
+{
+  let b = 400;
+}
+
+console.log(b); // ?`}
+                </code>
+              </pre>
+
+              <p className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
+                <span className="text-highlight">Explanation :</span>
+              </p>
+
+              <pre className="my-5 p-4 bg-neutral-100 rounded-lg shadow-input mx-1 overflow-x-auto">
+                <code className="text-secondary text-[15px] md:text-[20px] font-geist whitespace-pre">
+                  {`var a = 200;
+
+{
+  let a = 400; // let a is block-scoped, doesn't affect outer var a
+}
+
+let b = a; // b gets value of outer var a, which is 200
+
+{
+  let b = 400; // let b is block-scoped, doesn't affect outer let b
+}
+
+console.log(b); // logs the outer let b, which is 200`}
+                </code>
+              </pre>
             </AccordionContent>
           </AccordionItem>
 
