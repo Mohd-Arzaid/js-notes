@@ -115,7 +115,7 @@ const VariablesAndDataTypes = () => {
           {/* Q - 3 */}
           <AccordionItem value="item-3">
             <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
-              3. Practical Ques based on var , let & const?
+              3. Practical Questions: var, let & const
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
               <span className="text-highlight">1st example:</span>
