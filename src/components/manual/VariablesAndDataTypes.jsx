@@ -1,4 +1,3 @@
-import { Star } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -34,19 +33,6 @@ const VariablesAndDataTypes = () => {
               called <span className="text-highlight">Variables</span>
               {/* Quick Summary */}
               <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
-                <span className="flex gap-1 md:gap-2">
-                  <Star
-                    className="block md:hidden fill-current text-neutral-800 "
-                    size={17}
-                  />
-                  <Star
-                    className="hidden md:block fill-current text-neutral-800 "
-                    size={20}
-                  />
-                  <h3 className="text-primary font-geist text-[15px] md:text-[18px] font-medium mb-2">
-                    Summary
-                  </h3>
-                </span>
 
                 <div className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
                   Variables ={" "}
@@ -57,8 +43,28 @@ const VariablesAndDataTypes = () => {
             </AccordionContent>
           </AccordionItem>
 
+          {/* Q - 2 */}
+          <AccordionItem value="item-2">
+            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
+              2. Types of Variables?
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
+              In JS, there are three ways to declare variables:
+              <ul className="list-disc ml-6 mt-2 space-y-2">
+                <li><span className="text-highlight">var</span> - Function scoped or Global scoped, can be reassigned and redeclared</li>
+                <li><span className="text-highlight">let</span> - Block scoped, can be reassigned but not redeclared</li>
+                <li><span className="text-highlight">const</span> - Block scoped, cannot be reassigned or redeclared</li>
+              </ul>
 
-
+              {/* Quick Summary */}
+              <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
+          
+                <div className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
+                  Variable Types = <span className="text-highlight">var</span>, <span className="text-highlight">let</span>, and <span className="text-highlight">const</span>
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
 
           {/* The End */}
         </Accordion>
