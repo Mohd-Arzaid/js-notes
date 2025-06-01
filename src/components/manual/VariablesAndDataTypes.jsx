@@ -26,7 +26,7 @@ const VariablesAndDataTypes = () => {
           {/* Q - 1 */}
           <AccordionItem value="item-1">
             <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
-              Variables?
+              1. Variables?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
               We store data in memory and access it using its address. But since
@@ -58,7 +58,7 @@ const VariablesAndDataTypes = () => {
           </AccordionItem>
 
 
-          
+
 
           {/* The End */}
         </Accordion>
