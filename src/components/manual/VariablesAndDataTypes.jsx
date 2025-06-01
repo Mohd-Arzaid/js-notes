@@ -24,7 +24,7 @@ const VariablesAndDataTypes = () => {
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
-            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
+            <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
               1. Variables?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
@@ -45,24 +45,26 @@ const VariablesAndDataTypes = () => {
 
           {/* Q - 2 */}
           <AccordionItem value="item-2">
-            <AccordionTrigger className="font-geist text-[15px] md:text-[18px] tracking-wider text-primary font-medium">
+            <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
               2. Types of Variables?
             </AccordionTrigger>
             <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
-              In JS, there are three ways to declare variables:
-              <ul className="list-disc ml-6 mt-2 space-y-2">
+              In JS, there are three ways to declare variables = <span className="text-highlight">var</span>, <span className="text-highlight">let</span>, and <span className="text-highlight">const</span>
+             
+
+           
+
+              {/* Quick Summary */}
+              <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
+          
+              <ul className="list-disc ml-4 space-y-2">
                 <li><span className="text-highlight">var</span> - Function scoped or Global scoped, can be reassigned and redeclared</li>
                 <li><span className="text-highlight">let</span> - Block scoped, can be reassigned but not redeclared</li>
                 <li><span className="text-highlight">const</span> - Block scoped, cannot be reassigned or redeclared</li>
               </ul>
 
-              {/* Quick Summary */}
-              <div className="mt-5 my-2 p-4 bg-neutral-100 rounded-lg shadow-input mx-1">
-          
-                <div className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
-                  Variable Types = <span className="text-highlight">var</span>, <span className="text-highlight">let</span>, and <span className="text-highlight">const</span>
-                </div>
               </div>
+
             </AccordionContent>
           </AccordionItem>
 
