@@ -17,7 +17,7 @@ const VariablesAndDataTypes = () => {
   return (
     <div className=" max-w-[88rem] mx-auto px-4 py-8 md:p-12">
       {/* Heading */}
-      <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary">
+      {/* <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary">
         Variables And DataTypes Q/A
       </h2>
       <p className="text-secondary text-center text-[15px] md:text-[20px] font-geist">
@@ -25,7 +25,7 @@ const VariablesAndDataTypes = () => {
         <span className="text-primary font-geist text-[15px] md:text-[20px] font-medium underline underline-offset-4">
           Questions & Answers
         </span>
-      </p>
+      </p> */}
 
       {/* Accordion of Q/A */}
       <div className="w-full max-w-[1104px] mt-[8px] md:mt-[24px] mx-auto">
@@ -48,7 +48,7 @@ const VariablesAndDataTypes = () => {
                 </div>
               </div>
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem>                                                                                                   
 
           {/* Q - 2 */}
           <AccordionItem value="item-2">
@@ -214,8 +214,8 @@ console.log(b); // logs the outer let b, which is 200`}
                 <p>There are two main types: </p>
                 <span className="text-highlight">1. Primitive</span> and{" "}
                 <span className="text-highlight">2. Non-Primitive</span>
-                <p>Primitive types: String, Number, Boolean, Undefined, Null</p>
-                <p>Non-Primitive types: Object and Array</p>
+                <p>Primitive : String, Number, Boolean, Undefined, Null</p>
+                <p>Non-Primitive : Object and Array</p>
               </div>
             </AccordionContent>
           </AccordionItem>
