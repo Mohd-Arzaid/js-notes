@@ -1,11 +1,13 @@
 import { Link, Route, Routes } from "react-router-dom";
 import VariablesAndDataTypes from "./components/manual/VariablesAndDataTypes.jsx";
+import ReferenceTypes from "./components/manual/ReferenceTypes.jsx";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/VariablesAndDataTypes" element={<VariablesAndDataTypes />} />
+      <Route path="/ReferenceTypes" element={<ReferenceTypes />} />
     </Routes>
   );
 }
@@ -18,6 +20,11 @@ const Home = () => {
       <Link to="/VariablesAndDataTypes">
         <div className="font-geist text-[18px] font-medium underline underline-offset-4">
           Variables And Data Types (Javascript)
+        </div>
+      </Link>
+      <Link to="/ReferenceTypes">
+        <div className="font-geist text-[18px] font-medium underline underline-offset-4">
+        Reference Types : Objects & Arrays (Javascript)
         </div>
       </Link>
    

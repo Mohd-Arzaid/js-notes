@@ -28,7 +28,7 @@ const VariablesAndDataTypes = () => {
       </p> */}
 
       {/* Accordion of Q/A */}
-      <div className="w-full max-w-[1104px]  md:mt-[24px] mx-auto">
+      <div className="w-full max-w-[1104px]  mx-auto">
         <Accordion type="single" collapsible className="w-full">
           {/* Q - 1 */}
           <AccordionItem value="item-1">
@@ -213,9 +213,9 @@ console.log(b); // logs the outer let b, which is 200`}
               <div className="space-y-3">
                 <p>There are two main types: </p>
                 <span className="text-highlight">1. Primitive</span> and{" "}
-                <span className="text-highlight">2. Non-Primitive</span>
+                <span className="text-highlight">2. Non-Primitive (Reference Type)</span>
                 <p>Primitive : String, Number, Boolean, Undefined, Null</p>
-                <p>Non-Primitive : Object and Array</p>
+                <p>Non-Primitive (Reference Type) : Object, Array, Function</p>
               </div>
             </AccordionContent>
           </AccordionItem>
