@@ -147,19 +147,18 @@ console.log(b); // ?`}
                   {`var a = 200;
 
 {
-  a = 400; // a is now 400 becoz var is block scope
+  a = 400; // a is now 400 because var is function-scoped, not block-scoped
 }
 
 let b = a; // b = a and a = 400 so b is 400
 
 {
-  let b = 400; // let block scope, does not effect
+  let b = 400; // let is block-scoped, so this doesn't affect the outer b
 }
 
 console.log(b); // so b = 400`}
                 </code>
               </pre>
-
             </AccordionContent>
           </AccordionItem>
 
