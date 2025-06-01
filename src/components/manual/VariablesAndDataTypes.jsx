@@ -32,7 +32,7 @@ const VariablesAndDataTypes = () => {
             We store data in memory and access it using its address. But since
               we can't remember addresses, we give them names — these names are
               called{" "}
-              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-100 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
+              <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
                 Variables
               </span>
               {/* Quick Summary */}
@@ -46,7 +46,9 @@ const VariablesAndDataTypes = () => {
                 </span>
 
                 <div className="font-geist text-[15px] md:text-[18px] tracking-wider text-neutral-600">
-                  Variables = Named memory location that store data in memory
+                  Variables = <span className="text-neutral-800 font-geist text-[15px] md:text-[18px] font-medium underline decoration-neutral-200 decoration-2 underline-offset-[0.27em] transition-colors hover:decoration-neutral-800 ">
+                  Named memory location
+              </span>  that store data in memory
                 </div>
               </div>
             </AccordionContent>
