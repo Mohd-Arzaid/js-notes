@@ -50,19 +50,20 @@ const ReferenceTypes = () => {
                   <p>Value is not fixed (can change)</p>
                 </div>
 
-                <div className="flex items-center  gap-2">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
-                  <p>
-                    {" "}
-                    Memory is allocated in two parts : Heap (stores the actual
-                    data) & Stack (stores the address of that data known as
-                    pointer)
-                  </p>
+                <div className="flex flex-col gap-1">
+                  <div className="flex items-center  gap-2">
+                    <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
+                    <p>Memory is allocated in two parts : </p>
+                  </div>
+                  
+                  <p> i. Heap (stores the actual data)</p>
+                  <p> ii. Stack (stores the address of that data known as pointer)</p>
+                
                 </div>
               </div>
             </AccordionContent>
           </AccordionItem>
-
+         
           {/* The End */}
         </Accordion>
       </div>
