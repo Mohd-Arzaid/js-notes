@@ -20,7 +20,7 @@ const VariablesAndDataTypes = () => {
       <h2 className="text-[20px] md:text-[48px] text-center font-geist font-semibold text-primary">
         Variables And DataTypes Q/A
       </h2>
-     {/* <p className="text-secondary text-center text-[14px] md:text-[20px] font-geist">
+      {/* <p className="text-secondary text-center text-[14px] md:text-[20px] font-geist">
         Variables And DataTypes{" "}
         <span className="text-primary font-geist text-[14px] md:text-[20px] font-medium underline underline-offset-4">
           Questions & Answers
@@ -48,7 +48,7 @@ const VariablesAndDataTypes = () => {
                 </div>
               </div>
             </AccordionContent>
-          </AccordionItem>                                                                                                   
+          </AccordionItem>
 
           {/* Q - 2 */}
           <AccordionItem value="item-2">
@@ -213,7 +213,9 @@ console.log(b); // logs the outer let b, which is 200`}
               <div className="space-y-3">
                 <p>There are two main types: </p>
                 <span className="text-highlight">1. Primitive</span> and{" "}
-                <span className="text-highlight">2. Non-Primitive (Reference Type)</span>
+                <span className="text-highlight">
+                  2. Non-Primitive (Reference Type)
+                </span>
                 <p>Primitive : String, Number, Boolean, Undefined, Null</p>
                 <p>Non-Primitive (Reference Type) : Object, Array, Function</p>
               </div>
