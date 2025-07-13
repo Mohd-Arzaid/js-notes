@@ -262,6 +262,14 @@ console.log(original.address.city); // "Delhi" (unchanged)`}
             </AccordionContent>
           </AccordionItem>
 
+          {/* Q - 6 */}
+          <AccordionItem value="item-6">
+            <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
+              6. Built in Array Methods ?
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary"></AccordionContent>
+          </AccordionItem>
+
           {/* The End */}
         </Accordion>
       </div>
