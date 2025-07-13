@@ -220,6 +220,48 @@ console.log(original.address.city); // "Delhi" (unchanged)`}
             </AccordionContent>
           </AccordionItem>
 
+          {/* Q - 5 */}
+          <AccordionItem value="item-5">
+            <AccordionTrigger className="font-geist text-sm md:text-[18px] tracking-wider text-primary font-medium">
+              5. Array ?
+            </AccordionTrigger>
+            <AccordionContent className="font-geist text-sm md:text-[18px] tracking-wider text-secondary">
+              <p>Array is collection of items/elements</p>
+
+              <p className="mt-4">Create in 2 ways:</p>
+
+              <div className="flex flex-col my-2 md:my-3 gap-1">
+                <div className="flex items-center gap-2">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
+                  <p>
+                    <code>let arr = [1,2,3,4]</code>
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
+                  <p>
+                    <code>
+                      let arr2 = new Array(&apos;Samar&apos;, 1, true)
+                    </code>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col my-2 md:my-3 gap-1">
+                <div className="flex items-center gap-2">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
+                  <p>Type of array is object</p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-neutral-600 animate-pulse"></span>
+                  <p>Can access using index</p>
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+
           {/* The End */}
         </Accordion>
       </div>
